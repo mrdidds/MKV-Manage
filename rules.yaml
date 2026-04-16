@@ -1,0 +1,21 @@
+version: 1
+
+audio:
+  keep:
+    - type: japanese #<=== etiqueta de idioma
+      rename: Japones
+      default: true
+
+    - type: latino  #<=== etiqueta de idioma
+      rename: Espanol Latino
+      default: false  
+
+subtitles:
+  keep:
+    - language: spa #<=== etiqueta del subtitulo
+      rename: Espanol Latino
+      default: true
+
+output:
+  rename_prefix: "_"
+  overwrite: false
